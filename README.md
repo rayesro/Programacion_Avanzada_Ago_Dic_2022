@@ -71,7 +71,6 @@ Esta debe ser la primera pantalla en aparecer. Contendrá los siguientes campos:
 | Comercio          | Este campo puede ser un campo abierto un listado con los comercios que se han registrado. | Si        |
 | Nombre de usuario | Usuario que va a iniciar sesión.                                                          | Si        |
 | Contraseña        | Contraseña del usuario. Debe usarse un campo tipo password para ocular la contraseña.     | Si        |
-|                   |
 
 Esta pantalla deberá contar con 3 botones:
 
@@ -91,7 +90,6 @@ En esta pantalla se debe poder agregar un nuevo usuario y sus credenciales para 
 | Comercio          | Longitud de 5 a 15 caracteres alfanuméricos o espacios.                                                                                                                                         | Si        |
 | Nombre de usuario | Solamente se permiten letras, máximo 15.                                                                                                                                                        | Si        |
 | Contraseña        | Mínimo 3 y máximo 10 caracteres, se debe solicitar una letra, un número y un carácter especial como mínimo, si no cuenta on estos requisitos entonces será considerada una contraseña inválida. | Si        |
-|                   |
 
 Esta pantalla deberá contar con 3 botones:
 
@@ -499,6 +497,6 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( O ) | Al actualizar promociones                                                                                     | 2      |
 | ( O ) | Al actualizar consumos                                                                                        | 2      |
 | ( O ) | Mostrar nombre y foto de vendedor en todas las pantallas excepto Inicio de sesion y regsitro de usaurio Admin | 5      |
-| ( O ) | Multiusuario: Tener al menos dos comercios, cada comercio con un administrador y un cajero                    | 15     |
+| ( O ) | Multiusuario: Tener al menos dos comercios, cada comercio con un administrador y un cajero, una promo y un cliente                    | 15     |
 | ( O ) | Reporte de consumos ordenados por fecha                                                                       | 3      |
 | ( O ) | Filtro de consumos por cliente                                                                                | 3      |
