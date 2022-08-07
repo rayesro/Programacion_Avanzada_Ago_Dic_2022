@@ -18,7 +18,6 @@ Se debe desarrollar una aplicación para poder gestionar las compras hechas en u
 **`Consumos`** : Son los registros de compras que han hecho clientes en un negocio.
 
 ____________________________
-____________________________
 
 ## `LISTADO DE OPERACIONES`
 
@@ -54,7 +53,6 @@ A muy _grosso modo_ el diagrama de flujo es el siguiente:
 ![ _Diagrama de flujo basico_](diagrama.png)
 
 ____________________________
-____________________________
 
 ## `REQUERIMIENTOS POR PANTALLA`
 
@@ -82,8 +80,6 @@ Esta pantalla deberá contar con 3 botones:
 | Iniciar sesión    | Al dar clic en el botón de _Iniciar sesión_, se deben validar las credenciales y el comercio ingresado contra los atos registrados previamente. En caso de fallo, se debe mostrar una alerta que indicando que las credenciales son inválidas.                |
 | Registrar usuario | Al dar clic en el botón de _Registrar usuario_ se navegará a la pantalla de _Registro de usuario_.                                                                                                                                                            |
 | Salir             | Al dar clic en el botón de _Salir_, se debe preguntar al usuario si desea realmente cerrar la aplicación, en caso de aceptar, se guardarán todos los datos en memoria a un archivo. En caso de cancelar la operación, la aplicación se mantiene en ejecución. |
-|                   |
-___________________________
 ___________________________
 
 ### ` PANTALLA DE REGISTRO DE USUARIO ADMINISTRADOR.`
@@ -103,9 +99,7 @@ Esta pantalla deberá contar con 3 botones:
 | ----------------- | -------------------------------------------------------------------------------------------- |
 | Registrar usuario | Se almacenan los datos registrados y se regresa a la pantalla de _Iniciar sesión_.           |
 | Regresar          | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                   |
 
-____________________________
 ____________________________
 
 
@@ -125,7 +119,6 @@ Así mismo, esta pantalla contendrá el menú para administradores o para cajero
 Todos estos datos deben ser únicamente del comercio al que pertenece el usuario actual.
 
 ____________________________
-____________________________
 
 ### ` PANTALLAS DE USUARIO`
 
@@ -140,7 +133,6 @@ Los campos que se deben capturar son:
 | Nombre completo   | Solo caracteres alfabéticos y espacios, mínimo 5 y máximo 50   | Si        |
 | Alias del usuario | Solo se permite caracteres alfanuméricos, mínimo 3 y máximo 10 | No        |
 | Foto              | Cargar una imagen de perfil para el usuario                    | Si        |
-|                   |
 
 Esta pantalla sirve para que un usuario actualice su propia información.
 
@@ -150,8 +142,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Alta de nuevo usuario (ADMIN)`**
@@ -165,7 +155,6 @@ Los campos que se deben capturar son:
 | Nombre de usuario | Solo caracteres alfabéticos y espacios, mínimo 5 y máximo 50                                                                                                                                    | Si        |
 | Contraseña        | Mínimo 3 y máximo 10 caracteres, se debe solicitar una letra, un número y un carácter especial como mínimo, si no cuenta on estos requisitos entonces será considerada una contraseña inválida. | Si        |
 | Tipo de usuario   | Para este campo puede ser un listado, radio buttons pero no campos de textos, ya que se le debe indicar al usuario los tipos disponibles sin dejar que los edite                                | Si        |
-|                   |
 
 Esta pantalla contará con los siguientes botones:
 
@@ -173,8 +162,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Listado de usuarios (ADMIN)`**
@@ -188,8 +175,6 @@ Esta pantalla contará con los siguientes botones:
 | Actualizar      | Dirige al usuario a una pantalla para actualizar el registro seleccionado.                   |
 | Eliminar        | Dirige al usuario a una pantalla para eliminar el registro seleccionado.                     |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Reestablecer contraseña (ADMIN)`**
@@ -204,8 +189,6 @@ Esta pantalla contará con los siguientes botones:
 | ---------------------- | -------------------------------------------------------------------------------------------- |
 | Restablecer contraseña | Sobreescribe la contraseña del usuario seleccionado.                                         |
 | Regresar               | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                        |
-___________________________
 ___________________________
 
 ### ` PANTALLAS DE CLIENTES`
@@ -224,7 +207,6 @@ Los campos que se deben capturar son:
 | Email    | Validacion de formato email, mínimo 5 y máximo 25                                             | Si        |
 | Comercio | Este campo debe estar prellenado con el mismo comercio del administrador, es de solo lectura. | Si        |
 | Fecha    | Este campo debe estar prellenado con la fecha del sistema, es de solo lectura.                | Si        |
-|          |
 
 Esta pantalla contará con los siguientes botones:
 
@@ -232,8 +214,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Baja de clientes (ADMIN)`**
@@ -248,8 +228,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Eliminar        | Al darle clic debe desplegarse un cuadro de mensaje que pregunte al usuario que si esta seguro que desea eliminar el cliente, icho cuadro de mensaje debe tener los botones de _Cancelar_ y _Aceptar_, donde al dar clic en _Aceptar_, se procede a borrar el registro e la aplicación. Si el usuario da clic en  _Cancelar_, la aplicación mantiene al usuario en la pantalla actual." |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior.                                                                                                                                                                                                                                                                                            |
-|                 |
-____________________________
 ____________________________
 
 #### **`Listado de clientes (ADMIN Y CAJERO)`**
@@ -263,8 +241,6 @@ Esta pantalla contará con los siguientes botones:
 | Actualizar      | Dirige al usuario a una pantalla para actualizar el registro seleccionado.                   |
 | Eliminar        | Dirige al usuario a una pantalla para eliminar el registro seleccionado.                     |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Actualizar de clientes (ADMIN Y CAJERO)`**
@@ -281,7 +257,6 @@ Esta pantalla consta de dos partes, en la parte izquierda de la pantalla se most
 | Email    | Validacion de formato email, mínimo 5 y máximo 25                                             | Si        | Editable     |
 | Comercio | Este campo debe estar prellenado con el mismo comercio del administrador, es de solo lectura. | Si        | Solo lectura |
 | Fecha    | Este campo debe estar prellenado con la fecha del sistema, es de solo lectura.                | Si        | Solo lectura |
-|          |
 
 Esta pantalla contará con los siguientes botones:
 
@@ -289,8 +264,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 ### `PANTALLAS DE PROMOCIONES`
@@ -310,7 +283,6 @@ Los campos que se deben capturar son:
 | Porcentaje de descuento | Cantidad decimal, mayor a 0 y menor a 100                                                                     | Si        |
 | Estatus                 | Mostrar un listbox, un par de radio buttons o un checkbox para indicar si esta activa o inactiva la promoción | Si        |
 | Fecha                   | Este campo debe estar prellenado con la fecha del sistema, es de solo lectura.                                | Si        |
-|                         |
 
 Esta pantalla contará con los siguientes botones:
 
@@ -318,8 +290,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Baja de promociones (ADMIN)`**
@@ -334,8 +304,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Eliminar        | Al darle clic debe desplegarse un cuadro de mensaje que pregunte al usuario que si esta seguro que desea eliminar la romoción, dicho cuadro de mensaje debe tener los botones de _Cancelar_ y _Aceptar_, donde al dar clic en _Aceptar_, se procede a borrar e registro de la aplicación. Si el usuario da clic en  _Cancelar_, la aplicación mantiene al usuario en la pantalla actual." |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior.                                                                                                                                                                                                                                                                                              |
-|                 |
-____________________________
 ____________________________
 
 #### **`Listado de promociones (ADMIN Y CAJERO)`**
@@ -349,8 +317,6 @@ Esta pantalla contará con los siguientes botones:
 | Actualizar      | Dirige al usuario a una pantalla para actualizar el registro seleccionado.                   |
 | Eliminar        | Dirige al usuario a una pantalla para eliminar el registro seleccionado.                     |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 #### **`Actualizar promoción (ADMIN)`**
@@ -366,7 +332,6 @@ Los campos tendrán el siguiente comportamiento:
 | Porcentaje de descuento | Cantidad decimal, mayor a 0 y menor a 100                                                                     | Si        | Solo lectura |
 | Estatus                 | Mostrar un listbox, un par de radio buttons o un checkbox para indicar si esta activa o inactiva la promoción | Si        | Editable     |
 | Fecha                   | Este campo debe estar prellenado con la fecha del sistema, es de solo lectura.                                | Si        | Solo lectura |
-|                         |
 
 Esta pantalla contará con los siguientes botones:
 
@@ -374,8 +339,6 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
-____________________________
 ____________________________
 
 ### `PANTALLAS DE CONSUMOS`
@@ -394,7 +357,6 @@ Los campos que se deben capturar son:
 | Subtotal  | Este campo es de Solo lectura, se debe calcular automáticamente.                             | Si        |
 | Descuento | Este campo es de Solo lectura, se debe asignar automáticamente si aplica.                    | Si        |
 | Total     | Este campo es de Solo lectura, se debe calcular automáticamente.                             | Si        |
-|           |
 
 Esta pantalla contará con los siguientes botones:
 
@@ -402,11 +364,7 @@ Esta pantalla contará con los siguientes botones:
 | --------------- | -------------------------------------------------------------------------------------------- |
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
-|                 |
 
-__________
-__________
-__________
 __________
 
 ## `EVALUACIÓN`
@@ -421,7 +379,6 @@ Se consideran 3 entregas en total, las cuales tienen la siguiente ponderación.
 | Entrega final                | Integracion del Backend con el Frontend          | 60%                              |
 | Laboratorios de programación | Califación obtenida en los laboratorios          | 10%                              |
 |                              | Total                                            | 100%                             |
-|                              |
 
 ### ` Para estudiantes en segunda oportunidad en delante:`
 | Entrega         | Descripción                                      | Porcentaje de calificación total |
@@ -430,7 +387,6 @@ Se consideran 3 entregas en total, las cuales tienen la siguiente ponderación.
 | Segunda entrega | Frontend del sistema usando WinAPI               | 15%                              |
 | Entrega final   | Integracion del Backend con el Frontend          | 70%                              |
 |                 | Total                                            | 100%                             |
-|                 |
 
 ## `Lista de características `
 
@@ -444,8 +400,6 @@ Los puntos se dividen en 3 tipos:
 _Se deben cubrir todos los puntos requeridos, pero cubrirlos todos solo otorga una calificación mínima de aprox. 50 puntos, por lo que el estudiante necesita realizar otros puntos sugieridos u opcionales para poder llegar a la calificación mínima de aprobación de 70 puntos._
 
 _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APELLIDOS] [NOMBRES] - ENTREGA [1, 2 o 3]" QUE CONTENGA LA CARPETA DEL PROYECTO DE VISUAL STUDIO JUNTO CON EL ARCHIVO .EXE Y LA CARPETA DE FOTOS**_
-
-
 
 ### `Primera entrega - Backend usando aplicacion de consola `
 
@@ -484,10 +438,8 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( S ) | leer clientes desde archivo binario    | 5      |
 | ( O ) | leer promociones desde archivo binario | 4      |
 | ( O ) | leer consumos desde archivo binario    | 4      |
-|       |                                        |        |
 
 ### `Segunda entrega - Frontend usando WinAPI `
-
 
 | Tipo  | Punto a evaluar                                     | Puntos |
 | ----- | --------------------------------------------------- | ------ |
@@ -513,7 +465,6 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( O ) | Logica de cerrar ventanas desde el menu             | 5      |
 | ( O ) | Mostrar datos dummy o de prueba en los listados     | 10     |
 | ( O ) | Ocultar el boton Cerrar o [X] de todas las ventanas | 5      |
-|       |                                                     |        |
 
 ### `Entrega final - Integracion del Backend con el Frontend `
 
@@ -551,4 +502,3 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( O ) | Multiusuario: Tener al menos dos comercios, cada comercio con un administrador y un cajero                    | 15     |
 | ( O ) | Reporte de consumos ordenados por fecha                                                                       | 3      |
 | ( O ) | Filtro de consumos por cliente                                                                                | 3      |
-|       |                                                                                                               |        |
