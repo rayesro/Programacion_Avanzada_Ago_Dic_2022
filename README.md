@@ -488,14 +488,14 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( R ) | Listado de consumo                                                                                            | 1      |
 | ( R ) | Guardado de datos en archivo binario                                                                          | 6      |
 | ( R ) | Lectura de datos desde archivo binario                                                                        | 6      |
-| ( R ) | Al dar de alta usuarios                                                                                       | 2      |
-| ( R ) | Al dar de alta clientes                                                                                       | 2      |
-| ( R ) | Al dar de alta promociones                                                                                    | 2      |
-| ( R ) | Al dar de alta consumos                                                                                       | 2      |
-| ( O ) | Al actualizar usuarios                                                                                        | 2      |
-| ( O ) | Al actualizar clientes                                                                                        | 2      |
-| ( O ) | Al actualizar promociones                                                                                     | 2      |
-| ( O ) | Al actualizar consumos                                                                                        | 2      |
+| ( R ) | Validaciones al dar de alta usuarios                                                                                       | 2      |
+| ( R ) | Validaciones al dar de alta clientes                                                                                       | 2      |
+| ( R ) | Validaciones al dar de alta promociones                                                                                    | 2      |
+| ( R ) | Validaciones al dar de alta consumos                                                                                       | 2      |
+| ( O ) | Validaciones al actualizar usuarios                                                                                        | 2      |
+| ( O ) | Validaciones al actualizar clientes                                                                                        | 2      |
+| ( O ) | Validaciones al actualizar promociones                                                                                     | 2      |
+| ( O ) | Validaciones al actualizar consumos                                                                                        | 2      |
 | ( O ) | Mostrar nombre y foto de vendedor en todas las pantallas excepto Inicio de sesion y regsitro de usaurio Admin | 5      |
 | ( O ) | Multiusuario: Tener al menos dos comercios, cada comercio con un administrador y un cajero, una promo y un cliente                    | 15     |
 | ( O ) | Reporte de consumos ordenados por fecha                                                                       | 3      |
