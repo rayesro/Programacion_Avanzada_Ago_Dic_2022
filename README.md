@@ -363,6 +363,19 @@ Esta pantalla contará con los siguientes botones:
 | Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
 
+#### **`Listado de consumos (ADMIN Y CAJERO)`**
+
+En esta pantalla se mostrará el listado de todos los consumos de todos los clientes de un comercio.
+Esta pantalla consta de dos partes, en la parte izquierda de la pantalla se mostrará un listbox donde se desplieguen todos los consumos del mismo comercio que el usuario actual, mientras que en la parte derecha se mostrarán campos en formato solo lectura donde se cargará la información del consumo seleccionado en el listbox.
+
+
+Esta pantalla contará con los siguientes botones:
+
+| Texto del botón | Descripción                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------- |
+| Guardar         | Almacena los cambios de la información.                                                      |
+| Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
+
 __________
 
 ## `EVALUACIÓN`
@@ -484,8 +497,8 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( R ) | Alta de Promocion                                                                                             | 3      |
 | ( S ) | Baja de Promocion                                                                                             | 2      |
 | ( R ) | Listado de promociones                                                                                        | 1      |
-| ( R ) | Alta de Consumo                                                                                               | 10     |
-| ( R ) | Listado de consumo                                                                                            | 1      |
+| ( R ) | Alta de Consumo                                                                                               | 6     |
+| ( R ) | Listado de consumo                                                                                            | 5      |
 | ( R ) | Guardado de datos en archivo binario                                                                          | 6      |
 | ( R ) | Lectura de datos desde archivo binario                                                                        | 6      |
 | ( R ) | Validaciones al dar de alta usuarios                                                                                       | 2      |
