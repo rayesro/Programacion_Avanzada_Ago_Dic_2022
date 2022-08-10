@@ -71,7 +71,6 @@ Esta debe ser la primera pantalla en aparecer. Contendrá los siguientes campos:
 | Comercio          | Este campo puede ser un campo abierto un listado con los comercios que se han registrado. | Si        |
 | Nombre de usuario | Usuario que va a iniciar sesión.                                                          | Si        |
 | Contraseña        | Contraseña del usuario. Debe usarse un campo tipo password para ocular la contraseña.     | Si        |
-|                   |
 
 Esta pantalla deberá contar con 3 botones:
 
@@ -91,7 +90,6 @@ En esta pantalla se debe poder agregar un nuevo usuario y sus credenciales para 
 | Comercio          | Longitud de 5 a 15 caracteres alfanuméricos o espacios.                                                                                                                                         | Si        |
 | Nombre de usuario | Solamente se permiten letras, máximo 15.                                                                                                                                                        | Si        |
 | Contraseña        | Mínimo 3 y máximo 10 caracteres, se debe solicitar una letra, un número y un carácter especial como mínimo, si no cuenta on estos requisitos entonces será considerada una contraseña inválida. | Si        |
-|                   |
 
 Esta pantalla deberá contar con 3 botones:
 
@@ -302,7 +300,7 @@ Esta pantalla contará con los siguientes botones:
 
 | Texto del botón | Descripción                                                                                                                                                                                                                                                                                                                                                                               |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Eliminar        | Al darle clic debe desplegarse un cuadro de mensaje que pregunte al usuario que si esta seguro que desea eliminar la romoción, dicho cuadro de mensaje debe tener los botones de _Cancelar_ y _Aceptar_, donde al dar clic en _Aceptar_, se procede a borrar e registro de la aplicación. Si el usuario da clic en  _Cancelar_, la aplicación mantiene al usuario en la pantalla actual." |
+| Eliminar        | Al darle clic debe desplegarse un cuadro de mensaje que pregunte al usuario que si esta seguro que desea eliminar la promoción, dicho cuadro de mensaje debe tener los botones de _Cancelar_ y _Aceptar_, donde al dar clic en _Aceptar_, se procede a borrar el registro de la aplicación. Si el usuario da clic en  _Cancelar_, la aplicación mantiene al usuario en la pantalla actual." |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior.                                                                                                                                                                                                                                                                                              |
 ____________________________
 
@@ -357,6 +355,19 @@ Los campos que se deben capturar son:
 | Subtotal  | Este campo es de Solo lectura, se debe calcular automáticamente.                             | Si        |
 | Descuento | Este campo es de Solo lectura, se debe asignar automáticamente si aplica.                    | Si        |
 | Total     | Este campo es de Solo lectura, se debe calcular automáticamente.                             | Si        |
+
+Esta pantalla contará con los siguientes botones:
+
+| Texto del botón | Descripción                                                                                  |
+| --------------- | -------------------------------------------------------------------------------------------- |
+| Guardar         | Almacena los cambios de la información.                                                      |
+| Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
+
+#### **`Listado de consumos (ADMIN Y CAJERO)`**
+
+En esta pantalla se mostrará el listado de todos los consumos de todos los clientes de un comercio.
+Esta pantalla consta de dos partes, en la parte izquierda de la pantalla se mostrará un listbox donde se desplieguen todos los consumos del mismo comercio que el usuario actual, mientras que en la parte derecha se mostrarán campos en formato solo lectura donde se cargará la información del consumo seleccionado en el listbox.
+
 
 Esta pantalla contará con los siguientes botones:
 
@@ -486,19 +497,19 @@ _**SE DEBERÁ ENTREGAR UNA CARPETA EN FORMATO ZIP CON EL NOMBRE DE CARPETA "[APE
 | ( R ) | Alta de Promocion                                                                                             | 3      |
 | ( S ) | Baja de Promocion                                                                                             | 2      |
 | ( R ) | Listado de promociones                                                                                        | 1      |
-| ( R ) | Alta de Consumo                                                                                               | 10     |
-| ( R ) | Listado de consumo                                                                                            | 1      |
+| ( R ) | Alta de Consumo                                                                                               | 6     |
+| ( R ) | Listado de consumo                                                                                            | 5      |
 | ( R ) | Guardado de datos en archivo binario                                                                          | 6      |
 | ( R ) | Lectura de datos desde archivo binario                                                                        | 6      |
-| ( R ) | Al dar de alta usuarios                                                                                       | 2      |
-| ( R ) | Al dar de alta clientes                                                                                       | 2      |
-| ( R ) | Al dar de alta promociones                                                                                    | 2      |
-| ( R ) | Al dar de alta consumos                                                                                       | 2      |
-| ( O ) | Al actualizar usuarios                                                                                        | 2      |
-| ( O ) | Al actualizar clientes                                                                                        | 2      |
-| ( O ) | Al actualizar promociones                                                                                     | 2      |
-| ( O ) | Al actualizar consumos                                                                                        | 2      |
+| ( R ) | Validaciones al dar de alta usuarios                                                                                       | 2      |
+| ( R ) | Validaciones al dar de alta clientes                                                                                       | 2      |
+| ( R ) | Validaciones al dar de alta promociones                                                                                    | 2      |
+| ( R ) | Validaciones al dar de alta consumos                                                                                       | 2      |
+| ( O ) | Validaciones al actualizar usuarios                                                                                        | 2      |
+| ( O ) | Validaciones al actualizar clientes                                                                                        | 2      |
+| ( O ) | Validaciones al actualizar promociones                                                                                     | 2      |
+| ( O ) | Validaciones al actualizar consumos                                                                                        | 2      |
 | ( O ) | Mostrar nombre y foto de vendedor en todas las pantallas excepto Inicio de sesion y regsitro de usaurio Admin | 5      |
-| ( O ) | Multiusuario: Tener al menos dos comercios, cada comercio con un administrador y un cajero                    | 15     |
+| ( O ) | Multiusuario: Tener al menos dos comercios, cada comercio con un administrador y un cajero, una promo y un cliente                    | 15     |
 | ( O ) | Reporte de consumos ordenados por fecha                                                                       | 3      |
 | ( O ) | Filtro de consumos por cliente                                                                                | 3      |
