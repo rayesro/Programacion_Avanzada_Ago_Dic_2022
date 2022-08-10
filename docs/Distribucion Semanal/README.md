@@ -119,6 +119,17 @@
 
 ### Controles de WinAPI
 
+| Topico  | Enlace                                                                           | Idioma  |
+| ------- | -------------------------------------------------------------------------------- | ------- |
+| Listbox | https://www.youtube.com/watch?v=WU-wS0VONdk&ab_channel=ArixXDcs                  | Español |
+| Listbox | https://www.youtube.com/watch?v=9Iqtoyd1A2A&ab_channel=SergeAvramenko            | Ruso    |
+| ListBox | https://docs.microsoft.com/en-us/windows/win32/controls/create-a-simple-list-box ||
+
+
+## Semana 11
+
+### Controles de WinAPI
+
 | Topico         | Enlace                                                                       | Idioma  |
 | -------------- | ---------------------------------------------------------------------------- | ------- |
 | OpenFileDialog | https://www.youtube.com/watch?v=-iMGhSlvIR0&ab_channel=ThePentamollisProject | Inglés  |
@@ -127,16 +138,6 @@
 | Picturebox     | https://www.youtube.com/watch?v=AAdJvW6V_P0&ab_channel=ArixXDcs              | Español |
 | Checkbox       | http://www.alsprogrammingresource.com/checkbox_button_source.html            | Inglés  |
 
-
-## Semana 11
-
-### Controles de WinAPI
-
-| Topico  | Enlace                                                                           | Idioma  |
-| ------- | -------------------------------------------------------------------------------- | ------- |
-| Listbox | https://www.youtube.com/watch?v=WU-wS0VONdk&ab_channel=ArixXDcs                  | Español |
-| Listbox | https://www.youtube.com/watch?v=9Iqtoyd1A2A&ab_channel=SergeAvramenko            | Ruso    |
-| ListBox | https://docs.microsoft.com/en-us/windows/win32/controls/create-a-simple-list-box |
 
 ## Semana 12
 
