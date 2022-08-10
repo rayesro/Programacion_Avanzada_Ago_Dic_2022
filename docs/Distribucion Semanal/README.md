@@ -1,4 +1,4 @@
-#Distrubución semanal de temarios
+# Distrubución semanal de temarios
 
 ## Semana 1 
 
