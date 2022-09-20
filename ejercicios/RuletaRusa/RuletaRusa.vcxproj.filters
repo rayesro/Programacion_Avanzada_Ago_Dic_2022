@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Modelo">
+      <UniqueIdentifier>{14a25c6b-fd74-47a5-82ca-7dd25f484870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Vista">
+      <UniqueIdentifier>{0daa9b46-bf86-469b-806d-8ee8fa50b354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Controlador">
+      <UniqueIdentifier>{0dccb2ae-a086-4b2d-85c1-836a41f7ed91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Modelo">
+      <UniqueIdentifier>{da9469ea-535a-4fdb-b4bf-3334e67ef55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Vista">
+      <UniqueIdentifier>{b071169c-e85a-4095-96aa-98770dfb8ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Controlador">
+      <UniqueIdentifier>{08cd8b0c-a2da-42f1-8c14-f69313850a7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RuletaRusa.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="AlumnoModelo.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="AsistenciaModelo.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="RuletaModelo.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="AlumnoControlador.cpp">
+      <Filter>Archivos de origen\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="AsistenciaControlador.cpp">
+      <Filter>Archivos de origen\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="RuletaControlador.cpp">
+      <Filter>Archivos de origen\Controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="AlumnoVista.cpp">
+      <Filter>Archivos de origen\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="FechaModelo.cpp">
+      <Filter>Archivos de origen\Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="VistaCommon.cpp">
+      <Filter>Archivos de origen\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="AsistenciaVista.cpp">
+      <Filter>Archivos de origen\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="RuletaVista.cpp">
+      <Filter>Archivos de origen\Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Arranque.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlumnoModelo.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="AsistenciaModelo.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="RuletaModelo.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="AlumnoControlador.h">
+      <Filter>Archivos de encabezado\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="AsistenciaControlador.h">
+      <Filter>Archivos de encabezado\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="AlumnoVista.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="FechaModelo.h">
+      <Filter>Archivos de encabezado\Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="VistaCommon.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="AsistenciaVista.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="RuletaVista.h">
+      <Filter>Archivos de encabezado\Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantes.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="RuletaControlador.h">
+      <Filter>Archivos de encabezado\Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="Arranque.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="solo_nombres.txt">
+      <Filter>Archivos de recursos</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
