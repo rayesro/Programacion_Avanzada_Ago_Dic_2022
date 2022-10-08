@@ -277,7 +277,7 @@ Los campos que se deben capturar son:
 | Campo                   | Reglas                                                                                                        | Requerido |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------- | --------- |
 | Nombre                  | Solo caracteres alfabéticos y espacios, mínimo 5 y máximo 50                                                  | Si        |
-| Monto para promociones  | Solo números no negativos mayores a 100.                                                                      | Si        |
+| Monto para promociones  | Solo números no negativos menores a 100.                                                                      | Si        |
 | Porcentaje de descuento | Cantidad decimal, mayor a 0 y menor a 100                                                                     | Si        |
 | Estatus                 | Mostrar un listbox, un par de radio buttons o un checkbox para indicar si esta activa o inactiva la promoción | Si        |
 | Fecha                   | Este campo debe estar prellenado con la fecha del sistema, es de solo lectura.                                | Si        |
