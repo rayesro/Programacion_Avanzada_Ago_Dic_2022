@@ -373,7 +373,6 @@ Esta pantalla contará con los siguientes botones:
 
 | Texto del botón | Descripción                                                                                  |
 | --------------- | -------------------------------------------------------------------------------------------- |
-| Guardar         | Almacena los cambios de la información.                                                      |
 | Regresar        | Descarta los cambios en la pantalla y regresa al usuario a la pantalla principal u anterior. |
 
 __________
