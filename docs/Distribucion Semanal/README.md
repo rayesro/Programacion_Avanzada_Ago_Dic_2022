@@ -45,7 +45,7 @@
 | Puntero a estructuras               | http://galia.fc.uaslp.mx/~rmariela/programacion/unidad42.pdf                                                                                                    | Español |
 | Heap                                | https://docs.hektorprofe.net/cpp/07-punteros-memoria/06-tipos-memoria-stack-heap/                                                                               | Español |
 
-## Semana 4
+## Semana 3
 
 ### Listas ligadas
 
@@ -58,7 +58,7 @@
 | Listas ligadas dobles  | https://es.ccm.net/ordenadores/programacion/1658-listas-doblemente-enlazadas/      | Español |
 | Listas ligadas dobles  | https://www.delftstack.com/es/howto/cpp/doubly-linked-list-in-cpp/                 | Español |
 
-## Semana 5
+## Semana 4
 
 ### Operaciones con listas ligadas
 | Topico                | Enlace                                                                        | Idioma  |
@@ -67,7 +67,7 @@
 | Listas ligadas dobles | https://es.ccm.net/ordenadores/programacion/1658-listas-doblemente-enlazadas/ | Español |
 
 
-## Semana 6
+## Semana 5
 
 ### Archivos binarios
 
@@ -77,7 +77,7 @@
 | Archivos binarios | http://jbgarcia.webs.uvigo.es/asignaturas/TO/cursilloCpp/14_archivos.html               | Español |
 | Archivos binarios | https://www.aprendeaprogramar.com/cursos/verApartado.php?id=16801                       | Español |
 
-## Semana 7
+## Semana 6
 
 ### Introduccion a WINAPI
 
@@ -92,7 +92,7 @@
 | MessageBox                        | https://robbiem01.tripod.com/Tutorials/MessageBox_Demos.html                           | Inglés  |
 | MessageBox                        | https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-messagebox       | Inglés  |
 
-## Semana 8
+## Semana 7
 
 ### Controles de WinAPI
 
@@ -105,7 +105,7 @@
 | Button      | https://docs.microsoft.com/en-us/windows/win32/controls/buttons                             | Inglés  |
 | Button      | https://www.youtube.com/watch?v=q1OpE485TlM&ab_channel=ArixXDcs                             | Español |
 
-## Semana 9
+## Semana 8
 
 ### Controles de WinAPI
 
@@ -115,7 +115,7 @@
 | Menu          | https://conclase.net/winapi/curso/cap5                          | Español |
 | Multiventanas | https://www.youtube.com/watch?v=xCCZvsAPMEY&ab_channel=ArixXDcs | Español |
 
-## Semana 10
+## Semana 9
 
 ### Controles de WinAPI
 
@@ -126,7 +126,7 @@
 | ListBox | https://docs.microsoft.com/en-us/windows/win32/controls/create-a-simple-list-box ||
 
 
-## Semana 11
+## Semana 10
 
 ### Controles de WinAPI
 
@@ -139,7 +139,7 @@
 | Checkbox       | http://www.alsprogrammingresource.com/checkbox_button_source.html            | Inglés  |
 
 
-## Semana 12
+## Semana 11
 
 ### Controles de WinAPI
 
